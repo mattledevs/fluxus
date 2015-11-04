@@ -1,0 +1,55 @@
+
+#fluxus-portfolio-project-template {
+    display: none;
+}
+
+#fluxus-portfolio-no-projects th {
+    text-align: center;
+}
+
+.fluxus-portfolio-add-container {
+    padding: 4px 0 10px;
+}
+
+.fluxus-portfolio-add-container label {
+    padding: 3px 5px 0 0;
+}
+
+.fluxus-portfolio-add-container .button {
+    margin: 0 0 0 3px;
+}
+
+.fluxus-portfolio-add-container select {
+    width: 200px;
+}
+
+#fluxus-portfolio-project-table .col-image {
+    width: 130px;
+}
+
+#fluxus-portfolio-project-table .actions {
+    width: 130px;
+}
+
+#fluxus-portfolio-project-table .drag {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../../images/wp-admin/move.png);
+    position: relative;
+    top: 3px;
+    left: 5px;
+    cursor: move;
+    margin: 0 20px 0 0;
+}
+
+.fluxus-portfolio-project-remove {
+    color: #f00;
+    border-bottom: 1px solid #f00;
+}
+
+.fluxus-portfolio-project-remove:hover {
+    background: #f00;
+    color: #fff;
+    text-shadow: none;
+}
